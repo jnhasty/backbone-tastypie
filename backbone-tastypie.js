@@ -23,7 +23,7 @@
     });
 
     _.extend(Backbone.Collection.prototype, {
-        initialize: function(collections, options) {
+        initialize: function(options) {
             _.bindAll(this, 'fetchNext', 'fetchPrevious');
 
             this.meta = {};
